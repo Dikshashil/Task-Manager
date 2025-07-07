@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Task Manager</title>
+  <link rel="stylesheet" href="style.css" />
+  <script d efer src="file.js"></script>
+  <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+    crossorigin="anonymous"
+  />
+</head>
+<body>
+  <div class="container">
+    <h1>Product Manager</h1>
+    <div class="form">
+      <input type="text" id="pid" placeholder="Product ID" />
+      <input type="text" id="pname" placeholder="Product Name" />
+      <input type="number" id="price" placeholder="Price" />
+      <select id="category">
+        <option disabled selected>-- Select Category --</option>
+        <option>Electronics</option>
+        <option>Clothing</option>
+        <option>Stationery</option>
+        <option>Home Decor</option>
+      </select>
+      <button id="addBtn">Add Product</button>
+      <button id="updateBtn" style="display:none;">Update Product</button>
+    </div>
+
+    <h2>Available Products</h2>
+    <table id="productTable">
+      <thead>
+        <tr>
+          <th>ID</th>
+          <th>Name</th>
+          <th>Price</th>
+          <th>Category</th>
+          <th>Actions</th>
+        </tr>
+      </thead>
+      <tbody></tbody>
+    </table>
+
+    <h2>Sold Products</h2>
+    <table id="soldTable">
+      <thead>
+        <tr>
+          <th>ID</th>
+          <th>Name</th>
+          <th>Price</th>
+          <th>Category</th>
+        </tr>
+      </thead>
+      <tbody></tbody>
+    </table>
+  </div>
+</body>
+</html>
