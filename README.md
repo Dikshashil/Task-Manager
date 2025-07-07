@@ -19,7 +19,7 @@ It allows users to add, delete, and manage daily tasks in a clean and interactiv
 
 ## 🚀 Project Status
 ✅ Completed and deployed via GitHub Pages  
-📌 Future enhancements: LocalStorage, filters, dark mode
+📌 Future enhancements: LocalStorage
 
 ## 🙋‍♀️ Author
 [Diksha Shil](https://github.com/Dikshashil)
